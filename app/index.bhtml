@@ -1,0 +1,13 @@
+><!DOCTYPE html>
+<html
+  @lang ja
+  @ng-app bApp
+  <head
+    </meta
+      @charset UTF-8
+    <title
+      AngularJS + b-html example
+  <body
+    <b-app
+    <script
+      @src bundle.js
