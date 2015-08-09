@@ -7,6 +7,10 @@
       @charset UTF-8
     <title
       AngularJS + b-html example
+    <link
+      @rel stylesheet
+      @href index.css
+      @type text/css
   <body
     <b-app
     <script

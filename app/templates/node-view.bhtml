@@ -1,7 +1,7 @@
 <div
   @class node
   <span
-    @ng-bind c.model.children.length > 0 ? (c.model.open ? '-' : '+') : ' '
+    @ng-bind c.model.open ? '-' : '+'
     @ng-click c.toggleChildren()
   &nbsp;
   <span
