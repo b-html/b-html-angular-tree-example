@@ -1,3 +1,4 @@
 <div
   @class app
-  @ng-bind c.message
+  <b-node
+    @model c.root

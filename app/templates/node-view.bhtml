@@ -1,0 +1,6 @@
+<div
+  @class node
+  <span
+    @class node-name
+    @ng-bind c.model.name
+  <ul

@@ -2,7 +2,12 @@ class Controller
   @$inject: []
 
   constructor: ->
-    @message = 'hello'
+    @root =
+      name: 'node 1'
+      children: [
+        name: 'node 2'
+        children: []
+      ]
 
 module.exports = ->
   bindToController: true
