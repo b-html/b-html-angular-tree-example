@@ -3,8 +3,14 @@ class Controller
 
   constructor: ->
 
-  click: ->
+  toggleChildren: ->
     @model.open = !@model.open
+
+  addChild: ->
+    @model.children.push
+      open: true
+      name: 'new stuff'
+      children: []
 
 module.exports = [
   '$compile'

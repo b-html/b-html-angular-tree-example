@@ -2,11 +2,11 @@
   @class node
   <span
     @ng-bind c.model.children.length > 0 ? (c.model.open ? '-' : '+') : ' '
-    @ng-click c.click()
+    @ng-click c.toggleChildren()
   &nbsp;
   <span
     @class node-name
     @ng-bind c.model.name
-    @ng-click c.click()
+    @ng-click c.toggleChildren()
   <ul
     @ng-show c.model.open

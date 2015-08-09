@@ -2,3 +2,6 @@
   @ng-repeat i in c.model.children
   <b-node
     @model i
+  <li
+    @ng-click c.addChild()
+    +
