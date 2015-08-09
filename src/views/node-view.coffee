@@ -3,6 +3,9 @@ class Controller
 
   constructor: ->
 
+  click: ->
+    @model.open = !@model.open
+
 module.exports = [
   '$compile'
   '$templateCache'

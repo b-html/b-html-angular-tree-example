@@ -3,8 +3,10 @@ class Controller
 
   constructor: ->
     @root =
+      open: false
       name: 'node 1'
       children: [
+        open: false
         name: 'node 2'
         children: []
       ]
